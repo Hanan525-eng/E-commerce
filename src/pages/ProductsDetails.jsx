@@ -19,12 +19,12 @@ const ProductsDetails = () => {
         </div>
     }
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div className="container mx-auto px-4 py-8 ">
             <div >
                 <Link to='/' className="mb-8 inline-block">
                     Back to Products
                 </Link>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-40">
                     <div className="shadow-md p-4 rounded w-2/2">
                         <img className="h-72 w-72 mx-auto" src={product.image} alt={product.title} />
                     </div>

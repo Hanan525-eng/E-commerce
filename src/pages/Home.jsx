@@ -22,11 +22,11 @@ const Home = () => {
       <div className='bg'>
         
       </div>
-      <div className='container mx-auto my-10 px-4'>
+      <div className='container mx-auto my-10  px-4'>
         <div className='flex gap-4  text-center'>
           {categories.map((cat) => {
             return (
-              <button className='py-2 px-4 bg-emerald-500 rounded-md text-white active:scale-105
+              <button className='py-1 text-xs  md:text-2xl px-2 bg-emerald-500 rounded-md text-white active:scale-105
          hover:bg-emerald-600 transition-all ease-in '
                 key={cat}
                 onClick={() => dispatch(setSelectedCateogry(cat))}>

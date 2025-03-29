@@ -20,9 +20,9 @@ const Navbar = () => {
     }
     return (
       
-      <header className='bg-white shadow-md'>
+        <header className='bg-white shadow-md w-full fixed z-30'>
           <>
-              <div className='py-4 shadow-md'>
+                <div className='py-4 shadow-md '>
                   <ul className='container mx-auto flex flex-wrap justify-between md:flex-row px-4 md:px-2 items-center'>
                       <div className='flex gap-4'>
                           <li>

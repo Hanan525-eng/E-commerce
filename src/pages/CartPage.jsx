@@ -12,8 +12,8 @@ const CartPage = () => {
   const total = cartitems.reduce((sun, item) => sun + item.price * item.quantity, 0);
 
   if (cartitems.length === 0) {
-    return <div className='container mx-auto px-4 py-8'>
-      <div className='text-center'>
+    return <div className='container mx-auto px-4 py-8  '>
+      <div className='text-center mt-44'>
         <h2>Your cart is Empty </h2>
         <p className='text-gray-600 mb-4 '>Add some products to Your cart to see them here</p>
         <Link to='/' className='inline-block bg-emerald-300 px-6 py-2 rounded-lg hover:bg-emerald-400'>Continue Shopping</Link>
@@ -22,9 +22,9 @@ const CartPage = () => {
     </div>
   }
   return (
-    <div className='container mx-auto py-8 px-4 '>
+    <div className='container mx-auto py-8 px-4  '>
       <h2 className='text-2xl font-bold mb-8 '>Shopping Cart</h2>
-      <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 '>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-44 '>
         <div className='lg:col-span-2 shadow-md p-4 rounded-md'>
 
           {cartitems.map((item) =>(
